@@ -1,6 +1,6 @@
 {% set name = "ldap3" %}
-{% set version = "2.6.1" %}
-{% set sha256 = "27cb673e7afcb539f6adcae5a3ecac4e74eb37ca0a2d50dc98f29a3829eee529" %}
+{% set version = "2.7" %}
+{% set sha256 = "17f04298b70bf7ecaa5db8a7d8622b5a962ef7fc2b245b2eea705ac1c24338c0" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -35,7 +35,7 @@ about:
   license: LGPL-3.0
   license_family: LGPL
   license_file: COPYING.LESSER.txt
-  summary: 'A strictly RFC 4510 conforming LDAP V3 pure Python client library'
+  summary: A strictly RFC 4510 conforming LDAP V3 pure Python client library
   doc_url: http://ldap3.readthedocs.io
   dev_url: https://github.com/cannatag/ldap3
 

@@ -1,6 +1,6 @@
 {% set name = "ldap3" %}
-{% set version = "2.7" %}
-{% set sha256 = "17f04298b70bf7ecaa5db8a7d8622b5a962ef7fc2b245b2eea705ac1c24338c0" %}
+{% set version = "2.8" %}
+{% set sha256 = "59d1adcd5ead263387039e2a37d7cd772a2006b1cdb3ecfcbaab5192a601c515" %}
 
 package:
   name: {{ name|lower }}

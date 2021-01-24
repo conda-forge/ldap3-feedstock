@@ -5,11 +5,13 @@ Home: https://github.com/cannatag/ldap3
 
 Package license: LGPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ldap3-feedstock/blob/master/LICENSE.txt)
 
 Summary: A strictly RFC 4510 conforming LDAP V3 pure Python client library
 
+Development: https://github.com/cannatag/ldap3
 
+Documentation: http://ldap3.readthedocs.io
 
 Current build status
 ====================
